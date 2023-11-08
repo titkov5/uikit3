@@ -25,7 +25,7 @@
                                 <rect key="frame" x="27" y="243" width="307" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="dfsa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X7l-nF-2Gn"/>
+                                    <action selector="sliderDidEndEditing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X7l-nF-2Gn"/>
                                     <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LMZ-P7-1i0"/>
                                 </connections>
                             </slider>

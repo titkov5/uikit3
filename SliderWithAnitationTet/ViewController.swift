@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         animatibleView.layer.cornerRadius = 10.0
     }
 
-    @IBAction func dfsa(_ sender: Any) {
+    @IBAction func sliderDidEndEditing(_ sender: Any) {
         if slider.value < 1.0 {
             slider.value = 1
             startAnimation(duration: 0.2)
